@@ -5,3 +5,10 @@ cache:
     - node_modules
 env:
   - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: tMO9OSPuCfQXzBlJeKUdlnhOyqae1LfgtO8yN7uScKBHZATDBjqlm+gXI3wkAnKixurXS80PYwvQUy/PeJkivZEePhzHQO7IP1paRxC43nhTioFfCcc5lC+w6bou0+oN5QCcyP4uWn0z41t7se/BM6dJbEE+AyshKY0nHbHDUlgd2u3aOY3vJ/DvsKjW94MbTpYwrUHDACgr0+v55MNbM7zlVcDgeHvh+20C4+/M4bb3cF4uH2o8Ius29FRd/HxgP+jZ+EjkO4B8hQ1L2wDcA/LjN7JkaxdP3AxqQy29mUalJ+75md9B4VIiTO4pKU7Y6ayDlA0R3jd+vBZn1I8Nhi7TUOVUUFKTyupI+CFJNcldyBKi61RxVEedjRabF5206bgrrgoxyAC6OQ1RyXrS1xcb42rjE3s+MU/ULxekiiZeATkzMIL9vCnhGHvPxw26twm/F+TAmPc0XHHecxUiURTblpuvc1wK+wC8UMsBEbiT2tm2hARbweV8vkERzvgQdGkk+op8cPuYdWtdPNu5V+QluoWnTBYpN5B6e9z9GeEcyQvZ56kZzgzKcDGXm5BWKaM+e4LptBM1tvHjpeirPC0BpI7dt9Y0XI+4Xj6LsjIGqL39zMth+Ganm2yYfs2d53pp+ep9ZIL8i7SyJcdq9Owf38FTp2j03TPpzgFufX8=
+  app: react-trello-testing
+  on:
+    repo: claytonweller/react-trello-testing
