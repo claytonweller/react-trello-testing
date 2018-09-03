@@ -2,13 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
+- CI=true
 deploy:
   provider: heroku
   api_key:
-    secure: tMO9OSPuCfQXzBlJeKUdlnhOyqae1LfgtO8yN7uScKBHZATDBjqlm+gXI3wkAnKixurXS80PYwvQUy/PeJkivZEePhzHQO7IP1paRxC43nhTioFfCcc5lC+w6bou0+oN5QCcyP4uWn0z41t7se/BM6dJbEE+AyshKY0nHbHDUlgd2u3aOY3vJ/DvsKjW94MbTpYwrUHDACgr0+v55MNbM7zlVcDgeHvh+20C4+/M4bb3cF4uH2o8Ius29FRd/HxgP+jZ+EjkO4B8hQ1L2wDcA/LjN7JkaxdP3AxqQy29mUalJ+75md9B4VIiTO4pKU7Y6ayDlA0R3jd+vBZn1I8Nhi7TUOVUUFKTyupI+CFJNcldyBKi61RxVEedjRabF5206bgrrgoxyAC6OQ1RyXrS1xcb42rjE3s+MU/ULxekiiZeATkzMIL9vCnhGHvPxw26twm/F+TAmPc0XHHecxUiURTblpuvc1wK+wC8UMsBEbiT2tm2hARbweV8vkERzvgQdGkk+op8cPuYdWtdPNu5V+QluoWnTBYpN5B6e9z9GeEcyQvZ56kZzgzKcDGXm5BWKaM+e4LptBM1tvHjpeirPC0BpI7dt9Y0XI+4Xj6LsjIGqL39zMth+Ganm2yYfs2d53pp+ep9ZIL8i7SyJcdq9Owf38FTp2j03TPpzgFufX8=
+    secure: ShRHV9wgLjd8ws1JpNvLujGkNqEZHJ2Wf1XQ1pIGxKKo3ifbV009u6YOaMlPBmy93EJkBjNYHpSInWXzShAbULo/eHOjYP/xMDr2xFgIQVSEC+frJyjhQRKI5Liw2SwEQRvAJ2HOwTkVHKKP0AzkSPVo9zhxr23KLDHtXxfqhj0o8c52JyJ15eFz7K33ADG8gdICU9dcyIhV8Z1cHbU3NwOVgj/egQD5Hw39Vgw0ehLqBLKMs1t9JbD3AM2EcAAD9eh4M07FJyB9a7LO/8bLotJj4ghowiHTYj+TliP2vwqHlH/dF/DSPmsZFpkbqOeE9BBJ9wZCjLZWOGYjOADp4lYf+V+aYE3Lj6IvCN2nEh0NJQ/CAKTCM68jCkzV2BKrnn5W2ziCIQ5EvSaSlCoDV8xtgjL0pZW/q6BqAZiB1mlIz6d6n1Pblg/3s6MW/MzXVdi2UEddm8/xnc4iPla271BGH/XyJWZNAjZy8Z1lD2y4atSY06q+deVHPRLQjq3B+g6Rq6TCnSghK3p4aKM/903xv+o/a6GqYIuaZ/K/Tlo9Mt0P/dcTiJKDXtED7x153TwZ5hVoEuoV+jJ5+OQPjRutMAswQZpds5DXiH4ia2ZOJb0DZ1ww4F32JiFaWt4Kr6bvZEpt3P1o5p8p+0ezxAc5r765r38xhZl/VuZJYh8=
   app: react-trello-testing
   on:
     repo: claytonweller/react-trello-testing
